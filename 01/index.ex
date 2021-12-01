@@ -23,5 +23,5 @@ numbers =
   |> String.split("\n", trim: true)
   |> Enum.map(&String.to_integer/1)
 
-IO.inspect(Day01.one(numbers))
-IO.inspect(Day01.two(numbers))
+IO.puts(Day01.one(numbers))
+IO.puts(Day01.two(numbers))
