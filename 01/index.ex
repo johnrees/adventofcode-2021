@@ -4,12 +4,7 @@ defmodule Day01 do
     |> Enum.reduce(%{prev: :infinity, count: 0}, fn curr, acc ->
       %{
         prev: curr,
-        count:
-          if(
-            curr > acc.prev,
-            do: acc.count + 1,
-            else: acc.count
-          )
+        count: if(curr > acc.prev, do: acc.count + 1, else: acc.count)
       }
     end)
     |> Map.get(:count)
