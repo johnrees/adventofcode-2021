@@ -1,15 +1,15 @@
-const { join } = require("path");
 const { readFileSync } = require("fs");
+const { join } = require("path");
 const {
   aperture,
   curryN,
+  map,
   pipe,
   prop,
-  split,
   reduce,
-  toString,
+  split,
   sum,
-  map,
+  toString,
 } = require("ramda");
 
 const numbers = pipe(
