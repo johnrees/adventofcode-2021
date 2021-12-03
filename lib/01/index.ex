@@ -19,7 +19,7 @@ defmodule Day01 do
 end
 
 numbers =
-  File.read!("input.txt")
+  File.read!("./lib/01/input.txt")
   |> String.split("\n", trim: true)
   |> Enum.map(&String.to_integer/1)
 
