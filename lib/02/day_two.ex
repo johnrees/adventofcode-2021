@@ -44,4 +44,4 @@ defmodule DayTwo do
       end)
 end
 
-IO.inspect(DayTwo.two(File.read!("lib/02/input.txt")))
+IO.inspect(DayTwo.two(File.read!(Path.expand("input.txt", __DIR__))))
