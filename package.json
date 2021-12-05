@@ -1,5 +1,8 @@
 {
   "name": "adventofcode-2021",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "ramda": "^0.27.1"
   },
